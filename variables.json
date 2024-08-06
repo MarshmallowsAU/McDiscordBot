@@ -1,0 +1,9 @@
+{
+    "botToken":"", 
+    "chatChannelId":"",
+    "serverAddr":"",
+    "serverPort":42,
+    "startScript":"",
+    "rconPass":"",
+    "rconPort":42
+}
