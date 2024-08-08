@@ -89,7 +89,7 @@ async def stop(inter):
 async def server_info(inter):
     await inter.response.defer()
     try:
-        await inter.edit_original_message(content="IP Address = " + envVars["serverAddr"] + "\nPort = " + envVars["serverPort"])
+        await inter.edit_original_message(content="IP Address = " + str(envVars["serverAddr"]) + "\nPort = " + str(envVars["serverPort"]))
     except disnake.errors.HTTPException:
         await inter.edit_original_message(content="Could not stop the server. ")
 
